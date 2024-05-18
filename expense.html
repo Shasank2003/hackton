@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="expense.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Expense Tracker</h1>
+        <form action="expense-form">
+            <div class="form-group">
+            <label>Amount</label><br>
+            <input type="text" id="amount" required><br>
+            </div>
+            <div class="form-group">
+            <label>Category</label><br> 
+            <input type="text" id="category" required><br>
+            </div>
+            <div class="form-group">
+                <label>Description</label> <br>
+            <input type="text" id="description"  required><br>
+            </div>
+            <div class="form-group">
+                <label>Date</label> <br>
+                <input type="date" id="date"  required><br>
+            </div>
+            <div>
+                <button type="submit"> Add Expenses </button>
+            </div>
+        </form>
+        <ul id="expense-list"></ul>
+    </div>
+    <script src="expense.js"></script>
+
+</body>
+</html>

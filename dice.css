@@ -1,0 +1,17 @@
+body{
+    background-color:orangered;
+}
+.ab{
+    text-align: center;
+}
+#diceCanvas {
+    
+    border:solid black;
+    text-align: center;
+    height: 50vh;
+    width:40vh;
+    padding:60px, 300px;
+    background-color: aliceblue;
+    margin-left: 534px;
+    padding-top: 10px;
+}
